@@ -1,0 +1,34 @@
+/* Add application styles & imports to this file! */
+@import '~@ionic/angular/css/ionic.bundle.css';
+
+.titulo {
+  text-align: center;
+}
+
+:root {
+  --ion-font-family: 'Varela Round', sans-serif;
+  /* barra superior */
+  --ion-toolbar-background: #2b6ce6;
+  --ion-toolbar-color: white;
+
+  --ion-background-color: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(24, 24, 80, 1) 0%,
+    rgba(18, 177, 209, 1) 89%
+  );
+
+  /* barra inferior */
+  --ion-tab-bar-background: #2b6ce6;
+  --ion-tab-bar-color: white;
+  --ion-tab-bar-color-selected: #fff100;
+
+  --ion-text-color: white;
+  --ion-text-color-rgb: 255, 255, 255;
+}
+
+.conteudo {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
